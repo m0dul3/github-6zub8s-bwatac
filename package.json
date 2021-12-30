@@ -1,0 +1,27 @@
+{
+  "name": "getting-started-using-a-configuration",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "serve dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "^9.0.9",
+    "commander": "^8.3.0",
+    "firebase": "^9.6.1",
+    "firebase-tools": "^10.0.1",
+    "lodash": "^4.17.21",
+    "mwn": "^1.11.4",
+    "n_": "^3.0.0"
+  },
+  "devDependencies": {
+    "serve": "^12.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
